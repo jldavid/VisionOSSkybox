@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Realism_equirectangular-jpg_A_jungle_with_extinct_1000568977_10274424.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

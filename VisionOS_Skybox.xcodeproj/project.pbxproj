@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183717C82B8CE3CC005622CF /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 183717C72B8CE3CC005622CF /* RealityKitContent */; };
+		183717CA2B8CE3CC005622CF /* VisionOS_SkyboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183717C92B8CE3CC005622CF /* VisionOS_SkyboxApp.swift */; };
+		183717CC2B8CE3CC005622CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183717CB2B8CE3CC005622CF /* ContentView.swift */; };
+		183717CE2B8CE3CC005622CF /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183717CD2B8CE3CC005622CF /* ImmersiveView.swift */; };
+		183717D02B8CE3CC005622CF /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 183717CF2B8CE3CC005622CF /* ImageBasedLighting.skybox */; };
+		183717D22B8CE3CE005622CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183717D12B8CE3CE005622CF /* Assets.xcassets */; };
+		183717D52B8CE3CE005622CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183717D42B8CE3CE005622CF /* Preview Assets.xcassets */; };
+		183717DD2B8CFDEB005622CF /* SkyBoxControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183717DC2B8CFDEB005622CF /* SkyBoxControlsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183717C22B8CE3CC005622CF /* VisionOS_Skybox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionOS_Skybox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183717C62B8CE3CC005622CF /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		183717C92B8CE3CC005622CF /* VisionOS_SkyboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionOS_SkyboxApp.swift; sourceTree = "<group>"; };
+		183717CB2B8CE3CC005622CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		183717CD2B8CE3CC005622CF /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		183717CF2B8CE3CC005622CF /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		183717D12B8CE3CE005622CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183717D42B8CE3CE005622CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		183717D62B8CE3CE005622CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183717DC2B8CFDEB005622CF /* SkyBoxControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkyBoxControlsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183717BF2B8CE3CC005622CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183717C82B8CE3CC005622CF /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183717B92B8CE3CC005622CF = {
+			isa = PBXGroup;
+			children = (
+				183717C42B8CE3CC005622CF /* VisionOS_Skybox */,
+				183717C52B8CE3CC005622CF /* Packages */,
+				183717C32B8CE3CC005622CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183717C32B8CE3CC005622CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183717C22B8CE3CC005622CF /* VisionOS_Skybox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183717C42B8CE3CC005622CF /* VisionOS_Skybox */ = {
+			isa = PBXGroup;
+			children = (
+				183717C92B8CE3CC005622CF /* VisionOS_SkyboxApp.swift */,
+				183717CB2B8CE3CC005622CF /* ContentView.swift */,
+				183717DC2B8CFDEB005622CF /* SkyBoxControlsView.swift */,
+				183717CD2B8CE3CC005622CF /* ImmersiveView.swift */,
+				183717CF2B8CE3CC005622CF /* ImageBasedLighting.skybox */,
+				183717D12B8CE3CE005622CF /* Assets.xcassets */,
+				183717D62B8CE3CE005622CF /* Info.plist */,
+				183717D32B8CE3CE005622CF /* Preview Content */,
+			);
+			path = VisionOS_Skybox;
+			sourceTree = "<group>";
+		};
+		183717C52B8CE3CC005622CF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				183717C62B8CE3CC005622CF /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		183717D32B8CE3CE005622CF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				183717D42B8CE3CE005622CF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183717C12B8CE3CC005622CF /* VisionOS_Skybox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183717D92B8CE3CE005622CF /* Build configuration list for PBXNativeTarget "VisionOS_Skybox" */;
+			buildPhases = (
+				183717BE2B8CE3CC005622CF /* Sources */,
+				183717BF2B8CE3CC005622CF /* Frameworks */,
+				183717C02B8CE3CC005622CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisionOS_Skybox;
+			packageProductDependencies = (
+				183717C72B8CE3CC005622CF /* RealityKitContent */,
+			);
+			productName = VisionOS_Skybox;
+			productReference = 183717C22B8CE3CC005622CF /* VisionOS_Skybox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183717BA2B8CE3CC005622CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					183717C12B8CE3CC005622CF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 183717BD2B8CE3CC005622CF /* Build configuration list for PBXProject "VisionOS_Skybox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183717B92B8CE3CC005622CF;
+			productRefGroup = 183717C32B8CE3CC005622CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183717C12B8CE3CC005622CF /* VisionOS_Skybox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183717C02B8CE3CC005622CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183717D22B8CE3CE005622CF /* Assets.xcassets in Resources */,
+				183717D52B8CE3CE005622CF /* Preview Assets.xcassets in Resources */,
+				183717D02B8CE3CC005622CF /* ImageBasedLighting.skybox in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183717BE2B8CE3CC005622CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183717CC2B8CE3CC005622CF /* ContentView.swift in Sources */,
+				183717CA2B8CE3CC005622CF /* VisionOS_SkyboxApp.swift in Sources */,
+				183717DD2B8CFDEB005622CF /* SkyBoxControlsView.swift in Sources */,
+				183717CE2B8CE3CC005622CF /* ImmersiveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		183717D72B8CE3CE005622CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Debug;
+		};
+		183717D82B8CE3CE005622CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.0;
+			};
+			name = Release;
+		};
+		183717DA2B8CE3CE005622CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOS_Skybox/Preview Content\"";
+				DEVELOPMENT_TEAM = VN799MBZ2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KrishnaP.VisionOS-Skybox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		183717DB2B8CE3CE005622CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisionOS_Skybox/Preview Content\"";
+				DEVELOPMENT_TEAM = VN799MBZ2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KrishnaP.VisionOS-Skybox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183717BD2B8CE3CC005622CF /* Build configuration list for PBXProject "VisionOS_Skybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183717D72B8CE3CE005622CF /* Debug */,
+				183717D82B8CE3CE005622CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183717D92B8CE3CE005622CF /* Build configuration list for PBXNativeTarget "VisionOS_Skybox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183717DA2B8CE3CE005622CF /* Debug */,
+				183717DB2B8CE3CE005622CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		183717C72B8CE3CC005622CF /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 183717BA2B8CE3CC005622CF /* Project object */;
+}
